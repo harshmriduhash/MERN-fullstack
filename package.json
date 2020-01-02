@@ -1,0 +1,21 @@
+{
+  "name": "mern-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pmo1998/fullstack-mern-app.git"
+  },
+  "author": "Leyla <lisana5632@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"cd backend && yarn nodemon start.js\" \"cd client && yarn start\""
+  },
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/pmo1998/fullstack-mern-app/issues"
+  },
+  "homepage": "https://github.com/pmo1998/fullstack-mern-app#readme"
+}
